@@ -4,12 +4,11 @@
 class Cpg < Formula
   desc "Competitive Programming Grader for automating coding-build-testing loop."
   homepage "https://github.com/RyotaBannai/competitive-programming-grader"
-  url "https://github.com/RyotaBannai/competitive-programming-grader/archive/refs/tags/0.0.1-beta.tar.gz"
-  sha256 "d4c9f82b086f5c67c8f83adfa2a7d73207f4c074054d230059a8959f9c8304de"
+  url "https://github.com/RyotaBannai/competitive-programming-grader/releases/download/0.0.1-beta/cpg"
+  sha256 "29409e7c6882b23c746fdbbd234dcb0e94f17f985ffe7f6a846b3d37b6b8b310"
   license "MIT"
 
   def install
       bin.install 'cpg'
-    end
   end
 end
